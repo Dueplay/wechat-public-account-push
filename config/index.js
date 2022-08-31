@@ -13,7 +13,7 @@ export const config = {
     TEMPLATE_ID: "lpgxY4_iExceI-O13sAuf3bRo-NCEuOT9OQ0DHt8gjU",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    CALLBACK_TEMPLATE_ID: "	BYzVQHdkN5ErngztGCh5agXLiQbDW4VcwkoiAijxN3s",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -52,13 +52,13 @@ export const config = {
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
       {"type": "生日", "name": "老婆", "year": "2000", "date": "01-12"},
-      {"type": "生日", "name": "我", "year": "2000", "date": "05-23"},
       {"type": "节日", "name": "在一起纪念日", "year": "2021", "date": "04-16"},
+      {"type": "生日", "name": "我", "year": "2000", "date": "05-23"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 2,
 
     /** 日期相关 */
 
